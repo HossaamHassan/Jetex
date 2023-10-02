@@ -10933,7 +10933,7 @@ body {
 }
 .sb-nav-fixed .sb-topnav {
   z-index: 1039;
-  background-color: #979191;
+  background-color: #d4d0cb;
 
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
@@ -11008,7 +11008,7 @@ body {
   font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link {
   display: flex;
@@ -11016,7 +11016,7 @@ body {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   position: relative;
-  color: white;
+  color: black;
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
   font-size: 0.9rem;

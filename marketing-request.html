@@ -9,14 +9,14 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Jetex - Laundary</title>
+    <title>Jetex - Marketing Request</title>
     <link
       href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/all.min.css" />
-    <link href="./css/styles.css" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <script
       src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
       crossorigin="anonymous"
@@ -42,7 +42,7 @@
       >
         <div class="input-group">
           <input
-            class="form-control"
+            class="form-control infocus"
             type="text"
             placeholder="Search for..."
             aria-label="Search for..."
@@ -79,7 +79,7 @@
     </nav>
     <div id="layoutSidenav">
       <div id="layoutSidenav_nav">
-        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <nav class="sb-sidenav accordion" id="sidenavAccordion">
           <div class="sb-sidenav-menu">
             <div class="nav">
               <div class="sb-sidenav-menu-heading">Core</div>
@@ -212,23 +212,23 @@
                 data-bs-parent="#sidenavAccordion"
               ></div>
               <a
-                class="nav-link collapsed"
-                href="./marketing-request.html"
-                data-bs-target="#collapseLayouts"
-                aria-expanded="false"
-                aria-controls="collapseLayouts"
-              >
-                <div class="sb-nav-link-icon">
-                  <i class="fas fa-columns"></i>
-                </div>
-                Marketing Request
-              </a>
-              <div
-                class="collapse"
-                id="collapseLayouts"
-                aria-labelledby="headingOne"
-                data-bs-parent="#sidenavAccordion"
-              ></div>
+              class="nav-link collapsed"
+              href="./marketing-request.html"
+              data-bs-target="#collapseLayouts"
+              aria-expanded="false"
+              aria-controls="collapseLayouts"
+            >
+              <div class="sb-nav-link-icon">
+                <i class="fas fa-columns"></i>
+              </div>
+              Marketing Request
+            </a>
+            <div
+              class="collapse"
+              id="collapseLayouts"
+              aria-labelledby="headingOne"
+              data-bs-parent="#sidenavAccordion"
+            ></div>
               <a
                 class="nav-link collapsed"
                 href="./f&q.html"
@@ -239,8 +239,14 @@
                 <div class="sb-nav-link-icon">
                   <i class="fas fa-columns"></i>
                 </div>
-                F & Q
+                F&Q
               </a>
+              <div
+                class="collapse"
+                id="collapsePages"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#sidenavAccordion"
+              >
               <div
                 class="collapse"
                 id="collapsePages"
@@ -318,80 +324,210 @@
         <main>
           <div class="laundary">
             <div class="container px-4 mt-5">
-              <h1>FAQ'S</h1>
-
-              <div class="accordion">
-                <div class="accordion-item">
-                  <div class="accordion-item-header">
-                    What is Web Development?
-                  </div>
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      Web Development broadly refers to the tasks associated
-                      with developing functional websites and applications for
-                      the Internet. The web development process includes web
-                      design, web content development, client-side/server-side
-                      scripting and network security configuration, among other
-                      tasks.
-                    </div>
-                  </div>
+              <h3 class="text-center mb-5">Marketing Request</h3>
+              <div class="row">
+                <div class="col-md-12 mb-4">
+                  <label for="birthday" class="form-label fs-5">Date</label>
+                  <input
+                    class="form-control"
+                    type="date"
+                    id="birthday"
+                    name="birthday"
+                  />
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">What is HTML?</div>
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      HTML, aka HyperText Markup Language, is the dominant
-                      markup language for creating websites and anything that
-                      can be viewed in a web browser.
-                    </div>
-                  </div>
+                <div class="col-md-6 mb-4">
+                  <label for="birthday" class="form-label fs-5">From</label>
+                  <input
+                    class="form-control"
+                    type="date"
+                    id="birthday"
+                    name="birthday"
+                  />
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">
-                    What are some basic technical skills of a Front-End
-                    developer?
-                  </div>
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      <ul style="padding-left: 1rem">
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Frameworks (CSS and JavaScript frameworks)</li>
-                        <li>Responsive Design</li>
-                        <li>Version Control/Git</li>
-                        <li>Testing/Debugging</li>
-                        <li>Browser Developer Tools</li>
-                        <li>Web Performance</li>
-                        <li>SEO (Search Engine Optimization)</li>
-                        <!-- <li>CSS Preprocessing</li> -->
-                        <li>Command Line</li>
-                        <li>CMS (Content Management System)</li>
+                <div class="col-md-6 mb-4">
+                  <label for="birthday" class="form-label fs-5">To</label>
+                  <input
+                    class="form-control"
+                    type="date"
+                    id="birthday"
+                    name="birthday"
+                  />
+                </div>
+                <div class="col-12 mb-4 w-75 d-flex flex-column mb-5">
+                  <p style="font-size: 1.4rem">Product Description</p>
+                  <div class="icons d-flex gap-4 flex-column">
+                    <div class="allul d-flex flex-column flex-lg-row gap-4">
+                      <ul class="d-flex gap-4">
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/tshirt.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>T-shirt</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/skirt.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Skirt</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/trouser.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Trouser</p>
+                        </div>
+                      </ul>
+                      <ul class="d-flex gap-4">
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/hoodie.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Hoodie</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/scarf.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Scarf</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/cap.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Cap</p>
+                        </div>
                       </ul>
                     </div>
+                    <div class="allul d-flex flex-column flex-lg-row gap-4">
+                      <ul class="d-flex gap-4">
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/jacket.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Jacket</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/tie.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Tie</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/vest.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Vest</p>
+                        </div>
+                      </ul>
+                      <ul class="d-flex gap-4">
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/high-heels.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>High heels</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/shirt.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Shirt</p>
+                        </div>
+                        <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                          <li class="rounded border" id="li-click">
+                            <img
+                              src="./assets/img/dress.png"
+                              class="overflow-hidden"
+                              alt=""
+                            />
+                          </li>
+                          <p>Dress</p>
+                        </div>
+                      </ul>
+                    </div>
+                    <ul class="d-flex gap-4">
+                      <div class="title d-flex flex-column gap-2 align-items-center justify-content-center">
+                        <li class="rounded border" id="li-click">
+                          <img
+                            src="./assets/img/more-information.png"
+                            class="overflow-hidden"
+                            alt=""
+                          />
+                        </li>
+                        <p>Other</p>
+                      </div>
+                    </ul>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">What is HTTP?</div>
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      HTTP, aka HyperText Transfer Protocol, is the underlying
-                      protocol used by the World Wide Web and this protocol
-                      defines how messages are formatted and transmitted, and
-                      what actions Web servers and browsers should take in
-                      response to various commands.
-                    </div>
-                  </div>
+                <div class="col-lg-12 mb-4 wd">
+                  <label class="form-label fs-5">Size</label>
+                  <input type="text" class="form-control m-auto" />
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-item-header">What is CORS?</div>
-                  <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                      CORS, aka Cross-Origin Resource Sharing, is a mechanism
-                      that enables many resources (e.g. images, stylesheets,
-                      scripts, fonts) on a web page to be requested from another
-                      domain outside the domain from which the resource
-                      originated.
-                    </div>
-                  </div>
+                <div class="col-lg-12 mb-4 wd">
+                  <label class="form-label fs-5">Quantity</label>
+                  <input type="text" class="form-control m-auto" />
+                </div>
+                <div class="col-12 mb-4 wd">
+                  <i class="fa-solid fa-chart-bar type"></i>
+                  <select
+                    class="form-select mt-2"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Inventory item</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <a
+                    style="color: white; background-color: #ff4500"
+                    href="#"
+                    class="btn main-btn w-25"
+                    >Submit</a
+                  >
                 </div>
               </div>
             </div>
@@ -430,5 +566,6 @@
     ></script>
     <script src="./js/datatables-simple-demo.js"></script>
     <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

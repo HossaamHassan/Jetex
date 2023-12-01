@@ -43,7 +43,12 @@ ul {
 .sb-sidenav .sb-sidenav-menu .nav .nav-link:hover {
   color: var(--bs-orange);
 }
-.sb-sidenav .sb-sidenav-menu .nav .nav-link:hover .sb-nav-link-icon svg {
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidenav-collapse-arrow svg {
+  color: black;
+  transition: 0.3s;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link:hover .sb-nav-link-icon svg,
+.sb-sidenav .sb-sidenav-menu .nav .nav-link:hover .sb-sidenav-collapse-arrow svg {
   color: var(--bs-orange);
 }
 /* End Sidebar */
